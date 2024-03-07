@@ -51,14 +51,14 @@ const Form = (props) => {
         <button
           type="button"
           onClick={handleSubmit1}
-          className="btn btn-danger mx-2 float-right"
+          className="btn btn-danger mx-2 my-2 float-right"
         >
           change to uppercase
         </button>
         <button
           type="button"
           onClick={handleSubmit2}
-          className="btn btn-danger mx-2 float-right"
+          className="btn btn-danger mx-2 my-2 float-right"
         >
           change to lowercase
         </button>
@@ -66,7 +66,7 @@ const Form = (props) => {
         <button
           type="button"
           onClick={handleSubmit3}
-          className="btn btn-danger mx-2 float-right"
+          className="btn btn-danger mx-2 my-2 float-right"
         >
           count number of words
         </button>
